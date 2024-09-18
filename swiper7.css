@@ -1,0 +1,36 @@
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    
+    height:50px !important ;
+     width: 50px !important;
+     font-size: 20px;
+    
+     margin-right: 34px;
+     border-color: rgb(0, 105, 198) ;
+     border-style:solid ;
+ 
+     background-color: rgba(255, 255, 255, 0.3) !important;
+     border-radius: 100%;
+ }
+ .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+     content: 'next';
+     font-size: 20px;
+     font-weight: bold;
+     color: #c82c2c;
+ }
+ .swiper-button-prev, .swiper-rtl .swiper-button-next {
+   height:50px !important ;
+     width: 50px !important;
+     font-size: 20px;
+    
+     margin-left: 34px;
+     border-color: rgb(140, 173, 202);
+     border-style:solid ;
+ 
+     background-color: rgba(255, 255, 255, 0.3) !important;
+     border-radius: 100%;
+ }
+ .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+   font-size: 20px;
+     font-weight: bold;
+     color: #FFFFFF;
+ }
